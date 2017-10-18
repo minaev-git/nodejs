@@ -1,5 +1,16 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .row.justify-content-center
+    .col-12.main
+      h1 Какой ты котик?
+  .row.justify-content-center
+    .col-6.catImage
+      img(src="/images/1.jpg", alt="", srcset="")
+    .col-6.catImage
+      img(src="/images/2.jpg", alt="", srcset="")
+    .col-6.catImage
+      img(src="/images/3.jpg", alt="", srcset="")
+    .col-6.catImage
+      img(src="/images/4.jpg", alt="", srcset="")
+  script(src="/javascripts/app.js")
